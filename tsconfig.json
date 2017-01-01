@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noEmitOnError": true,
+    "alwaysStrict": true,
+    "declaration": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "filesGlob": [
+    "./src/**/*.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  },
+  "files": [
+    "./src/index.ts"
+  ]
+}

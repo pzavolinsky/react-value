@@ -1,0 +1,33 @@
+{
+  "name": "react-value",
+  "version": "1.0.0",
+  "description": "React value helpers",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "node_modules/.bin/gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pzavolinsky/react-value.git"
+  },
+  "keywords": [
+    "react-component",
+    "value",
+    "react"
+  ],
+  "author": "Patricio Zavolinsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pzavolinsky/react-value/issues"
+  },
+  "homepage": "https://github.com/pzavolinsky/react-value",
+  "devDependencies": {
+    "@types/react": "^0.14.55",
+    "tslint": "^4.2.0",
+    "typescript": "^2.1.4"
+  },
+  "dependencies": {
+    "react": "^15.4.1"
+  }
+}
